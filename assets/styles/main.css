@@ -1,0 +1,17 @@
+
+.nav-top a {
+  font-size: 12px;
+}
+
+form #urls {
+  min-height: 300px;
+}
+
+.bg-gray {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+.bg-black {
+  background: #000;
+  color: white;
+}
