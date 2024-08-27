@@ -54,7 +54,7 @@ module.exports.globals = {
   google_client_id: process.env.GOOGLE_CLIENT_ID,
   google_client_secret: process.env.GOOGLE_CLIENT_SECRET,
 
-  google_redirect_url: process.env.GOOGLE_REDIRECT_URL || 'http://localhost:1337/google/token',
+  google_redirect_url: process.env.GOOGLE_REDIRECT_URL,
 
   google_scopes: [
     'https://www.googleapis.com/auth/indexing',
